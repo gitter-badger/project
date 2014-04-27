@@ -1,0 +1,16 @@
+
+development:
+  adapter: postgresql
+  database: project 
+  host: localhost
+
+
+test:
+  adapter: postgresql
+  database: project 
+  host: localhost
+
+production:
+  adapter: postgresql
+  database: project 
+  host: localhost
