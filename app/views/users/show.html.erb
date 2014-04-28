@@ -39,7 +39,7 @@
 									<div class="user-image small-12 medium-4 columns text-center">
 										<img src="/assets/unstyle/user-profile.png" alt="John Doe"/>
 									</div>
-									<div class="small-12 medium-8 columns">
+									<div class="small-12 medium-8 columns" >
 										<h2 class="entry-title">
 											<a href="#">Welcome back John Doe</a></h2>
 										<div class="entry-meta">
@@ -53,15 +53,19 @@
 												<li class="email"><a href="mailto:johndoe@gmail.com">johndoe@gmail.com</a></li>
 											</ul>
 										</div>
+
 										<p class="mb-0 text-right">
-											<a href="#" class="button small">Edit Profile</a>
+											<%= link_to "Edit Profile", edit_user_path(@user), class: "button small" %>
 										</p>
+
+									
 									</div>
 								</div>
 							</div>
 						</article>
 						
 						
+						<% 10.times do %>
 						<!-- === Article === -->
 						<article class="entry">
 							<!-- Entry Header -->
@@ -95,321 +99,7 @@
 								</div>
 							</div>
 						</article>
-						
-						
-						<!-- === Article === -->
-						<article class="entry">
-							<!-- Entry Header -->
-							<header class="entry-header">
-								<h2 class="entry-title">
-									<a href="#">Title of News Feed Here</a></h2>
-								<div class="entry-meta">
-									<span class="posted-on">1 May 2013</span></div>
-							</header>
-							
-							<!-- Entry Body -->
-							<div class="entry-body">
-								<!-- Entry Content -->
-								<div class="entry-content">
-									<div class="author-image">
-										<img src="/assets/unstyle/blogger-male.png" alt=""/>
-									</div>
-									<div class="author-text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in massa id enim accumsan 
-											ornare. Sed rutrum diam vel hendrerit dictum. Morbi tempus porta dapibus. Integer euismod 
-											metus dui, ac lacinia orci dapibus ac. Fusce vestibulum luctus odio.</p>
-									</div>
-								</div>
-								
-								<!-- Entry Rate -->
-								<div class="entry-rate">
-									<ul>
-										<li><a href="#" class="like"></a></li>
-										<li><a href="#" class="dislike"></a></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-						
-						
-						<!-- === Article === -->
-						<article class="entry">
-							<!-- Entry Header -->
-							<header class="entry-header">
-								<h2 class="entry-title">
-									<a href="#">Title of News Feed Here</a></h2>
-								<div class="entry-meta">
-									<span class="posted-on">1 May 2013</span></div>
-							</header>
-							
-							<!-- Entry Body -->
-							<div class="entry-body">
-								<!-- Entry Content -->
-								<div class="entry-content">
-									<div class="author-image">
-										<img src="/assets/unstyle/blogger-male.png" alt=""/>
-									</div>
-									<div class="author-text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in massa id enim accumsan 
-											ornare. Sed rutrum diam vel hendrerit dictum. Morbi tempus porta dapibus. Integer euismod 
-											metus dui, ac lacinia orci dapibus ac. Fusce vestibulum luctus odio.</p>
-									</div>
-								</div>
-								
-								<!-- Entry Rate -->
-								<div class="entry-rate">
-									<ul>
-										<li><a href="#" class="like"></a></li>
-										<li><a href="#" class="dislike"></a></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-						
-						
-						<!-- === Article === -->
-						<article class="entry">
-							<!-- Entry Header -->
-							<header class="entry-header">
-								<h2 class="entry-title">
-									<a href="#">Title of News Feed Here</a></h2>
-								<div class="entry-meta">
-									<span class="posted-on">1 May 2013</span></div>
-							</header>
-							
-							<!-- Entry Body -->
-							<div class="entry-body">
-								<!-- Entry Content -->
-								<div class="entry-content">
-									<div class="author-image">
-										<img src="/assets/unstyle/blogger-male.png" alt=""/>
-									</div>
-									<div class="author-text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in massa id enim accumsan 
-											ornare. Sed rutrum diam vel hendrerit dictum. Morbi tempus porta dapibus. Integer euismod 
-											metus dui, ac lacinia orci dapibus ac. Fusce vestibulum luctus odio.</p>
-									</div>
-								</div>
-								
-								<!-- Entry Rate -->
-								<div class="entry-rate">
-									<ul>
-										<li><a href="#" class="like"></a></li>
-										<li><a href="#" class="dislike"></a></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-						
-						
-						<!-- === Article === -->
-						<article class="entry">
-							<!-- Entry Header -->
-							<header class="entry-header">
-								<h2 class="entry-title">
-									<a href="#">Title of News Feed Here</a></h2>
-								<div class="entry-meta">
-									<span class="posted-on">1 May 2013</span></div>
-							</header>
-							
-							<!-- Entry Body -->
-							<div class="entry-body">
-								<!-- Entry Content -->
-								<div class="entry-content">
-									<div class="author-image">
-										<img src="/assets/unstyle/blogger-male.png" alt=""/>
-									</div>
-									<div class="author-text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in massa id enim accumsan 
-											ornare. Sed rutrum diam vel hendrerit dictum. Morbi tempus porta dapibus. Integer euismod 
-											metus dui, ac lacinia orci dapibus ac. Fusce vestibulum luctus odio.</p>
-									</div>
-								</div>
-								
-								<!-- Entry Rate -->
-								<div class="entry-rate">
-									<ul>
-										<li><a href="#" class="like"></a></li>
-										<li><a href="#" class="dislike"></a></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-						
-						
-						<!-- === Article === -->
-						<article class="entry">
-							<!-- Entry Header -->
-							<header class="entry-header">
-								<h2 class="entry-title">
-									<a href="#">Title of News Feed Here</a></h2>
-								<div class="entry-meta">
-									<span class="posted-on">1 May 2013</span></div>
-							</header>
-							
-							<!-- Entry Body -->
-							<div class="entry-body">
-								<!-- Entry Content -->
-								<div class="entry-content">
-									<div class="author-image">
-										<img src="/assets/unstyle/blogger-male.png" alt=""/>
-									</div>
-									<div class="author-text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in massa id enim accumsan 
-											ornare. Sed rutrum diam vel hendrerit dictum. Morbi tempus porta dapibus. Integer euismod 
-											metus dui, ac lacinia orci dapibus ac. Fusce vestibulum luctus odio.</p>
-									</div>
-								</div>
-								
-								<!-- Entry Rate -->
-								<div class="entry-rate">
-									<ul>
-										<li><a href="#" class="like"></a></li>
-										<li><a href="#" class="dislike"></a></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-						
-						
-						<!-- === Article === -->
-						<article class="entry">
-							<!-- Entry Header -->
-							<header class="entry-header">
-								<h2 class="entry-title">
-									<a href="#">Title of News Feed Here</a></h2>
-								<div class="entry-meta">
-									<span class="posted-on">1 May 2013</span></div>
-							</header>
-							
-							<!-- Entry Body -->
-							<div class="entry-body">
-								<!-- Entry Content -->
-								<div class="entry-content">
-									<div class="author-image">
-										<img src="/assets/unstyle/blogger-male.png" alt=""/>
-									</div>
-									<div class="author-text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in massa id enim accumsan 
-											ornare. Sed rutrum diam vel hendrerit dictum. Morbi tempus porta dapibus. Integer euismod 
-											metus dui, ac lacinia orci dapibus ac. Fusce vestibulum luctus odio.</p>
-									</div>
-								</div>
-								
-								<!-- Entry Rate -->
-								<div class="entry-rate">
-									<ul>
-										<li><a href="#" class="like"></a></li>
-										<li><a href="#" class="dislike"></a></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-						
-						
-						<!-- === Article === -->
-						<article class="entry">
-							<!-- Entry Header -->
-							<header class="entry-header">
-								<h2 class="entry-title">
-									<a href="#">Title of News Feed Here</a></h2>
-								<div class="entry-meta">
-									<span class="posted-on">1 May 2013</span></div>
-							</header>
-							
-							<!-- Entry Body -->
-							<div class="entry-body">
-								<!-- Entry Content -->
-								<div class="entry-content">
-									<div class="author-image">
-										<img src="/assets/unstyle/blogger-male.png" alt=""/>
-									</div>
-									<div class="author-text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in massa id enim accumsan 
-											ornare. Sed rutrum diam vel hendrerit dictum. Morbi tempus porta dapibus. Integer euismod 
-											metus dui, ac lacinia orci dapibus ac. Fusce vestibulum luctus odio.</p>
-									</div>
-								</div>
-								
-								<!-- Entry Rate -->
-								<div class="entry-rate">
-									<ul>
-										<li><a href="#" class="like"></a></li>
-										<li><a href="#" class="dislike"></a></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-						
-						
-						<!-- === Article === -->
-						<article class="entry">
-							<!-- Entry Header -->
-							<header class="entry-header">
-								<h2 class="entry-title">
-									<a href="#">Title of News Feed Here</a></h2>
-								<div class="entry-meta">
-									<span class="posted-on">1 May 2013</span></div>
-							</header>
-							
-							<!-- Entry Body -->
-							<div class="entry-body">
-								<!-- Entry Content -->
-								<div class="entry-content">
-									<div class="author-image">
-										<img src="/assets/unstyle/blogger-male.png" alt=""/>
-									</div>
-									<div class="author-text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in massa id enim accumsan 
-											ornare. Sed rutrum diam vel hendrerit dictum. Morbi tempus porta dapibus. Integer euismod 
-											metus dui, ac lacinia orci dapibus ac. Fusce vestibulum luctus odio.</p>
-									</div>
-								</div>
-								
-								<!-- Entry Rate -->
-								<div class="entry-rate">
-									<ul>
-										<li><a href="#" class="like"></a></li>
-										<li><a href="#" class="dislike"></a></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-						
-						
-						<!-- === Article === -->
-						<article class="entry">
-							<!-- Entry Header -->
-							<header class="entry-header">
-								<h2 class="entry-title">
-									<a href="#">Title of News Feed Here</a></h2>
-								<div class="entry-meta">
-									<span class="posted-on">1 May 2013</span></div>
-							</header>
-							
-							<!-- Entry Body -->
-							<div class="entry-body">
-								<!-- Entry Content -->
-								<div class="entry-content">
-									<div class="author-image">
-										<img src="/assets/unstyle/blogger-male.png" alt=""/>
-									</div>
-									<div class="author-text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in massa id enim accumsan 
-											ornare. Sed rutrum diam vel hendrerit dictum. Morbi tempus porta dapibus. Integer euismod 
-											metus dui, ac lacinia orci dapibus ac. Fusce vestibulum luctus odio.</p>
-									</div>
-								</div>
-								
-								<!-- Entry Rate -->
-								<div class="entry-rate">
-									<ul>
-										<li><a href="#" class="like"></a></li>
-										<li><a href="#" class="dislike"></a></li>
-									</ul>
-								</div>
-							</div>
-						</article>
+						<% end %>
 						
 						<div class="back-to-top"><a href="#"></a></div>
 					</div>
@@ -458,13 +148,14 @@
 		</footer>
 		
 		<!-- ==================== Scripts =================== -->
-		<script src="js/jquery-1.8.0.min.js"></script>
-		<script src="js/scripts.js"></script>
+		<%= javascript_include_tag 'scripts' %>
+
 		
 		<script>
 			$(function() {
 				setUpScrollingLink();			    
 			});
+
+
 		</script>
 	</body>
-</html>

@@ -1,6 +1,12 @@
 Project::Application.routes.draw do
 
   resources :users, only: [ :show ]
+  
+  resource :user, only: [:edit] do
+  collection do
+    patch 'update_password'
+    end
+  end
 
 
   get "users/:id", to: "users#show" 

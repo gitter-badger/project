@@ -11,11 +11,11 @@
         <%= csrf_meta_tags %>
 		
 		<!-- ================== Stylesheets ================= -->
-		<link rel="stylesheet" href="style/base.css"/>
-		<link rel="stylesheet" href="style/screen.css"/>
-				
+		<%= stylesheet_link_tag 'base' %>
+        <%= stylesheet_link_tag 'screen' %>
+        				
 		<!-- ==================== Scripts =================== -->
-		<script src="js/modernizr.js"></script>
+		<%= javascript_include_tag 'modernizr' %>
 	</head>
 
     
