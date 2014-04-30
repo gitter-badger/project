@@ -58,6 +58,10 @@
 											<%= link_to "Edit Profile", edit_user_path(@user), class: "button small" %>
 										</p>
 
+										<button id="click">click</button>
+										<div id="hide">Hi</div>
+										<div class="hide "id="show">Im Jim</div>
+
 									
 									</div>
 								</div>
@@ -155,6 +159,17 @@
 			$(function() {
 				setUpScrollingLink();			    
 			});
+
+			$(document).ready(function() {
+                $('#click').click(function(e) {
+                    e.preventDefault();
+                    $('#hide').hide('fade', 300);
+                    setTimeout(function() {
+                        $('#show').show('fade', 300);
+                    }, 300);
+
+                });
+            });
 
 
 		</script>
